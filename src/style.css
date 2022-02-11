@@ -25,7 +25,11 @@ html{
 	font-size:0.9em;
 }
 
-button{box-shadow: 8px 10px 20px #00000071;}
+button{
+	
+	font-size: 1.2rem;
+	border-radius: 10px;
+	box-shadow: 8px 10px 20px #00000071;}
 	
 .container {
 	
@@ -40,7 +44,7 @@ button{box-shadow: 8px 10px 20px #00000071;}
 	background-color: rgba(70, 70, 70, 0.171);
 	padding: 20px;
 	backdrop-filter: blur(25px);
-	border-radius: 25px;
+	border-radius: 22px;
 	border: 2px solid transparent;
 	background-clip: padding-box;
 	z-index: 100;
@@ -62,7 +66,7 @@ body {
 
 img {
 	max-width: 100%;
-	border-radius: 10%;
+	border-radius: 15px;
 	box-shadow: 8px 10px 20px #00000085;
 }
 
@@ -71,7 +75,7 @@ img {
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0;
-	border-radius: 5%;
+	border-radius: 15px;
 }
 
 .videoWrapper iframe {
@@ -80,7 +84,7 @@ img {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 3%;
+	border-radius: 15px;
 }
 
 .by-me{
@@ -96,7 +100,7 @@ img {
 	border: 2px solid transparent;
 	backdrop-filter: blur(10px);
 	border-radius: 10px;
-	background-color: rgba(112, 112, 112, 0.274);
+	background-color: rgba(129, 129, 129, 0.274);
 }
 
 /*.by-me a:hover{color: #15f861;
@@ -107,9 +111,9 @@ img {
 	font-weight: bold;
 	display: flex;
 	text-decoration: none;
-	font-size: clamp(0.8rem, 2vw, 1rem);
+	font-size: clamp(1rem, 2vw, 1.2rem);
 	text-shadow: 0px 0px 5px #000000;
-	color: #dddddd;
+	color: #ffffffe0;
 	padding: 0px;
 	margin-right: 10px;
 	margin-left: 10px;
