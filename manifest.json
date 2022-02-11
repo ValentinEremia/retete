@@ -2,8 +2,8 @@
     "name": "Random Meal Generator",
     "short_name": "Random Meal Generator",
     "start_url": ".",
-    "background_color": "#534173",
-    "theme_color": "#141414",
+    "background_color": "#0a0a0a",
+    "theme_color": "#0a0a0a",
     "display": "standalone",
     "icons": [
         {
@@ -13,7 +13,7 @@
             "purpose": "maskable"
         },   
         {
-            "src": "images/maskable_icon_x512.png",
+            "src": "images/lunch-512.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
