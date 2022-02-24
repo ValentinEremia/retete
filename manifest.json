@@ -4,7 +4,7 @@
     "start_url": ".",
     "background_color": "#0a0a0a",
     "theme_color": "#0a0a0a",
-    "display": "standalone",
+    "display": "fullscreen",
     "icons": [
         {
             "src": "images/maskable_icon_x192.png",
